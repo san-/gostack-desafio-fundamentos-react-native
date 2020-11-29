@@ -21,6 +21,17 @@ export const ProductContainer = styled.View`
   flex-direction: row;
 `;
 
+export const EmptyCartMessage = styled.View`
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const EmptyCartMessageText = styled.Text`
+  font-size: 16px;
+  padding: 16px;
+`;
+
 export const ProductList = styled(FlatList as new () => FlatList<Product>)`
   padding: 0 10px;
 `;
